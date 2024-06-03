@@ -1,0 +1,8 @@
+button:hover{
+    background-color: pink;
+    transform: none;
+}
+button{
+    border: 3px;
+    border-radius: 10px;
+}
