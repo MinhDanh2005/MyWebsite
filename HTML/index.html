@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>CÙNG HÀNG THỜI TRANG</h1>
+    <hr/>
+
+    <section id="showcase">
+      <div class="container">
+        <h2>
+            <span class="red">MINH DANH</span>
+            <span class="white">THOME</span>
+            <span class="black">BROWNE</span>
+        </h2>        
+      </div>
+    </section>
+    <header class="header">
+        <div class="menu">
+            <div class="logo">
+                <img class="logo-img" src="./logoshop.jpg" alt="" width="100">
+            </div>
+            <div class="menu-search">
+                <input type="text" placeholder="Search..." class="menu_search-input">
+            </div>    
+        </div>
+        <hr/>
+        <div class="banner">
+            <img src="./anhbia2.jpg" alt="" width="100%" height="400px">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li class="current">
+                <a href="dangnhap.html"><h3>Đăng nhập</h3></a>
+                <button onclick="toggleFollow()" id="followBtn" class="followBtn">Theo dõi</button>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <h3 class="center">QUẦN ÁO BÁN CHẠY NHẤT</h3>
+        <h4 class="center">Cửa hàng thời trang hiện đại sang trọng, chúng tôi luôn cập nhật những mẫu mới nhất để phục vụ khách hàng hãy nhấn theo dõi để
+            nhận được các thông báo mới nhất.</h4>
+        <div>
+            <section class="item">
+                <div class="image-container">
+                    <a href="./shopquan.html">
+                    <img src="./quanaucc.jpg" alt="" class="item-image" style="width: 500px; height: 500px; padding: 40px; border-radius: 12%;">
+                    </a>
+                </div>    
+                <div class="image-container">
+                    <a href="./shopao.html">
+                        <img src="./aosomi.jpg" alt="" class="item-image" style="width: 400px; height: 500px; padding: 40px; border-radius: 12%; margin-left: 60px;">                      
+                    </a>
+                    
+                </div>
+                <div class="shopaokhoac-container">
+                    <a href="./shopaokhoac.html">
+                        <img src="./aokhoac.jpg" alt="" class="item-image" style="width: 400px; height: 500px; padding: 40px; border-radius: 12%; margin-left: 130px;">
+                    </a>
+                </div>
+            </section>                                    
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
