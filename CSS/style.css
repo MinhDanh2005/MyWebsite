@@ -119,3 +119,105 @@ h3 {
 .followBtn:hover {
     background-color: #555; 
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-search {
+    margin-top: 10px;
+}
+
+.menu_search-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item img {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .item img {
+        padding: 20px; 
+        width: 100%; 
+        max-width: 100%; 
+        height: auto; 
+        border-radius: 12px;
+        margin-left: 0;
+    }
+
+    .menu_search-input {
+        font-size: 14px;
+    }
+}
