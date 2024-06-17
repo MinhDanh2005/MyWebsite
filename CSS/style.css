@@ -120,6 +120,7 @@ h3 {
     background-color: #555; 
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -129,13 +130,13 @@ h3 {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
 }
 
 .container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 0 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header {
@@ -144,9 +145,6 @@ body {
     text-align: center;
 }
 
-.menu-search {
-    margin-top: 10px;
-}
 
 .menu_search-input {
     width: 100%;
@@ -178,6 +176,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+
 .main {
     padding: 20px;
 }
@@ -195,11 +194,12 @@ nav ul li a:hover {
 }
 
 .item img {
-    width: 100%; 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 12px;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (max-width: 768px) {
@@ -208,14 +208,20 @@ nav ul li a:hover {
         padding: 0 10px;
     }
 
+    .header {
+        padding: 10px;
+    }
+
+    .menu_search-input {
+        font-size: 14px;
+    }
+
     .item img {
-        padding: 20px; 
-        width: 100%; 
-        max-width: 100%; 
-        height: auto; 
-        border-radius: 12px;
+        padding: 10px;
         margin-left: 0;
     }
+}
+
 
     .menu_search-input {
         font-size: 14px;
